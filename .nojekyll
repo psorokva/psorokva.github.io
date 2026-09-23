@@ -1,0 +1,4 @@
+# Disables GitHub Pages' Jekyll processing. Required because the Astro build
+# emits assets under dist/_astro/, which Jekyll (starting with "_") would
+# otherwise refuse to serve. This file is published to the root of
+# psorokva/psorokva.github.io with the rest of dist/ on every deploy.
